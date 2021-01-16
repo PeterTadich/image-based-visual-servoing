@@ -1,0 +1,25 @@
+{
+  "name": "image-based-visual-servoing",
+  "version": "1.0.0",
+  "description": "image based visual servoing (robotics)",
+  "main": "ibvs.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterTadich/image-based-visual-servoing.git"
+  },
+  "author": "Peter Tadich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterTadich/image-based-visual-servoing/issues"
+  },
+  "homepage": "https://github.com/PeterTadich/image-based-visual-servoing#readme",
+  "dependencies": {
+    "central-camera": "git+https://github.com/PeterTadich/central-camera.git",
+    "controller-interface": "git+https://github.com/PeterTadich/controller-interface.git",
+    "fischertechnik": "git+https://github.com/PeterTadich/FischerTechnik.git",
+    "matrix-computations": "git+https://github.com/PeterTadich/matrix-computations.git"
+  }
+}
